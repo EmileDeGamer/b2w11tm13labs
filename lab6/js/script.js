@@ -3,7 +3,8 @@ document.getElementById('title').innerHTML = "Pyramide aflopend"
 let input = prompt("Voer een getal in", "Getal:")
 let array = []
 
-for (let times = 0; times <= 10; times++) {
+let tempI = input
+for (let times = 0; times <= tempI; times++) {
     for (let i = input; i <= input; i--) {
         if (i == -1){
             break;
