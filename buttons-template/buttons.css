@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+
+#button1, #button2, #button3{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#buttonImg{
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: 120px;
+    right: -5px;
+}
+
+#button1{
+    background: url("./images/bg1.jpg");
+    background-size: 300px;
+}
+
+#button2{
+    background: url("./images/bg2.jpg");
+    background-size: 300px;
+}
+
+#button3{
+    background: url("./images/bg3.jpg");
+    background-size: 300px;
+}
+
+#image{
+    background: url("./images/bg0.jpg");
+    background-size: 300px;
+    width: 298px;
+    height: 298px;
+    border: 1px solid black;
+    float: left;
+}
+
+#imgImg{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: right;
+    top: 245px;
+    pointer-events: none;
+}
+
+.amount1, .amount2, .amount3{
+    position: relative;
+    bottom: 115px;
+    right: 85px;
+    padding: 10px;
+    background: green;
+}
