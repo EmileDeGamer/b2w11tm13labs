@@ -11,14 +11,17 @@ CheckButton()
 function CheckButton(){
     if(lastClickedButton == "button1"){
         button1.style.border = "5px solid red"
+        button1.style.color = "black"
         button1.disabled = true
     }
     if (lastClickedButton == "button2"){
         button2.style.border = "5px solid red"
+        button2.style.color = "black"
         button2.disabled = true
     }
     if (lastClickedButton == "button3"){
         button3.style.border = "5px solid red"
+        button3.style.color = "black"
         button3.disabled = true
     }
     
